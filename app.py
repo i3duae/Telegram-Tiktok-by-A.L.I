@@ -15,7 +15,7 @@ token = os.getenv("TOKEN")
 BOT_USERNAME = '@ManukaAI_Bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('أهلا وسهلا بكم في بوت بوبراهيم لتحميل المقاطع من تيك توك ')
+    await update.message.reply_text(' أهلا وسهلا بكم في بوت بوبراهيم لتحميل المقاطع من تيك توك أرسل رابط الفيديو ')
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Please type something so i can respond')
